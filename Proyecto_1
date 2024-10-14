@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página personal de Javier Rebollo Moyano">
+    <title>Javier Rebollo Moyano - Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a2e;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #1a1a2e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            color: #1a1a2e;
+        }
+        .skills, .projects, .contact {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #fff;
+            margin: 0 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #1a1a2e;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Javier Rebollo Moyano</h1>
+        <p>Economía, Derecho, Inversiones y Desarrollo Personal</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Me llamo Javier Rebollo Moyano, actualmente finalizando un doble grado en Administración y Dirección de Empresas y Derecho. Mi trayectoria me ha permitido desarrollar una visión amplia en áreas como finanzas, inversiones, inteligencia artificial y geopolítica. Con una experiencia internacional en Italia y España, busco seguir aprendiendo y mejorar constantemente mi impacto personal y profesional.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Inversiones en criptomonedas y mercados bursátiles</li>
+            <li>Estrategias financieras y de crecimiento personal</li>
+            <li>Administración de empresas y derecho corporativo</li>
+            <li>Desarrollo de marca personal y liderazgo</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Proyectos</h2>
+        <p>Mis proyectos académicos incluyen dos trabajos de fin de grado en las áreas de administración y derecho, con un enfoque práctico en estrategias empresariales y regulación financiera. He realizado intercambios académicos en Italia (Parma) y Sevilla, lo que me ha permitido ampliar mi visión y adaptarme a entornos internacionales.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Sígueme en:</p>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+    </footer>
+</body>
+</html>
